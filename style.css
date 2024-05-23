@@ -1,8 +1,39 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: rgb(238, 238, 238);
 }
-.company{
-    width: 90%;
-    object-fit: cover;
-    height: 1000px;
+.navbar {
+  display: flex;
+  align-items: center;
 }
+.padding {
+  padding-right: 50px;
+}
+.company {
+  width: 100%;
+  object-fit: cover;
+  object-position: center 0;
+  height: 300px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.img-container {
+  background-color: rgb(116, 116, 116);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.oran {
+  color: orange;
+}
+a {
+  text-decoration: none;
+  color: orange;
+}
+a:hover {
+  text-decoration: underline;
+}
+.text-container {
+}
+/* TODO:Place text-container under the image */
